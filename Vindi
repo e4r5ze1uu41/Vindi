@@ -1,0 +1,288 @@
+wait(0.5)
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local Title = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local DS = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local AAFK = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local CS = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local LC = Instance.new("Frame")
+local UICorner_6 = Instance.new("UICorner")
+local TextLabel_2 = Instance.new("TextLabel")
+local UICorner_7 = Instance.new("UICorner")
+local ON = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local OFF = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local RBD = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local GS = Instance.new("Frame")
+local UICorner_11 = Instance.new("UICorner")
+local TextLabel_3 = Instance.new("TextLabel")
+local UICorner_12 = Instance.new("UICorner")
+local ON_2 = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local OFF_2 = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local CDS = Instance.new("TextLabel")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui").MainScreenGui
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Frame.Position = UDim2.new(0.345265597, 0, 0.305426359, 0)
+Frame.Size = UDim2.new(0, 267, 0, 306)
+Frame.Active = true
+Frame.Draggable = true
+
+UICorner.Parent = Frame
+
+Title.Name = "Title"
+Title.Parent = Frame
+Title.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+Title.Position = UDim2.new(0.000696303672, 0, 0.00142639165, 0)
+Title.Size = UDim2.new(0, 267, 0, 38)
+
+UICorner_2.Parent = Title
+
+TextLabel.Parent = Title
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Size = UDim2.new(0, 266, 0, 38)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Vindi Market "
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 30.000
+
+DS.Name = "DS"
+DS.Parent = Frame
+DS.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
+DS.Position = UDim2.new(0.037453182, 0, 0.165856212, 0)
+DS.Size = UDim2.new(0, 247, 0, 23)
+DS.Font = Enum.Font.SourceSans
+DS.Text = "Drop Money Script"
+DS.TextColor3 = Color3.fromRGB(255, 255, 255)
+DS.TextSize = 20.000
+DS.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet(("https://raw.githubusercontent.com/Raycodex/Exploiting/main/Roblox/Da%20Hood%20Auto%20Cash%20Drop"), true))()
+end)
+
+UICorner_3.Parent = DS
+
+AAFK.Name = "AAFK"
+AAFK.Parent = Frame
+AAFK.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
+AAFK.Position = UDim2.new(0.037453182, 0, 0.276052296, 0)
+AAFK.Size = UDim2.new(0, 247, 0, 23)
+AAFK.Font = Enum.Font.SourceSans
+AAFK.Text = "Anti AFK"
+AAFK.TextColor3 = Color3.fromRGB(255, 255, 255)
+AAFK.TextSize = 20.000
+AAFK.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet(("https://pastebin.com/raw/9QCyuc2p"), true))()
+end)
+
+UICorner_4.Parent = AAFK
+
+CS.Name = "CS"
+CS.Parent = Frame
+CS.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
+CS.Position = UDim2.new(0.037453182, 0, 0.392052293, 0)
+CS.Size = UDim2.new(0, 247, 0, 23)
+CS.Font = Enum.Font.SourceSans
+CS.Text = "Crash Script"
+CS.TextColor3 = Color3.fromRGB(255, 255, 255)
+CS.TextSize = 20.000
+CS.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SuperCustomServerCrasher'))()
+end)
+
+UICorner_5.Parent = CS
+
+LC.Name = "LC"
+LC.Parent = Frame
+LC.BackgroundColor3 = Color3.fromRGB(58, 58, 58)
+LC.Position = UDim2.new(0.037453182, 0, 0.612392128, 0)
+LC.Size = UDim2.new(0, 247, 0, 43)
+
+UICorner_6.Parent = LC
+
+TextLabel_2.Parent = LC
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+TextLabel_2.Size = UDim2.new(0, 82, 0, 43)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "Lock Character At Bank"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+UICorner_7.Parent = TextLabel_2
+
+ON.Name = "ON"
+ON.Parent = LC
+ON.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ON.BackgroundTransparency = 0.800
+ON.BorderColor3 = Color3.fromRGB(27, 42, 53)
+ON.Position = UDim2.new(0.453441292, 0, 0.0930232555, 0)
+ON.Size = UDim2.new(0, 45, 0, 35)
+ON.Font = Enum.Font.SourceSans
+ON.Text = "ON"
+ON.TextColor3 = Color3.fromRGB(0, 0, 0)
+ON.TextSize = 14.000
+ON.MouseButton1Click:Connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.Anchored = true
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-382.487885, 21.2479954, -287.731293, -0.152108938, 6.29930099e-08, -0.988363743, 2.12378399e-08, 1, 6.04661494e-08, 0.988363743, -1.17932704e-08, -0.152108938)
+end)
+
+UICorner_8.Parent = ON
+
+OFF.Name = "OFF"
+OFF.Parent = LC
+OFF.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+OFF.BackgroundTransparency = 0.800
+OFF.BorderColor3 = Color3.fromRGB(27, 42, 53)
+OFF.Position = UDim2.new(0.684210479, 0, 0.0930232555, 0)
+OFF.Size = UDim2.new(0, 45, 0, 35)
+OFF.Font = Enum.Font.SourceSans
+OFF.Text = "OFF"
+OFF.TextColor3 = Color3.fromRGB(0, 0, 0)
+OFF.TextSize = 14.000
+OFF.MouseButton1Click:Connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.Anchored = false
+end)
+
+UICorner_9.Parent = OFF
+
+RBD.Name = "RBD"
+RBD.Parent = Frame
+RBD.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
+RBD.Position = UDim2.new(0.037453182, 0, 0.5024575, 0)
+RBD.Size = UDim2.new(0, 247, 0, 23)
+RBD.Font = Enum.Font.SourceSans
+RBD.Text = "Remove Buildings (For FPS)"
+RBD.TextColor3 = Color3.fromRGB(255, 255, 255)
+RBD.TextSize = 20.000
+RBD.MouseButton1Click:Connect(function()
+	game.Workspace.MAP.Map:Destroy()
+	game.Workspace.MAP.CarnivalPlace:Destroy()
+	game.Workspace.MAP:WaitForChild("Fences/UF"):Destroy()
+	game.Workspace.Lights:Destroy()
+	
+	local decalsyeeted = true -- Leaving this on makes games look shitty but the fps goes up by at least 20.
+	local g = game
+	local w = g.Workspace
+	local l = g.Lighting
+	local t = w.Terrain
+	t.WaterWaveSize = 0
+	t.WaterWaveSpeed = 0
+	t.WaterReflectance = 0
+	t.WaterTransparency = 0
+	l.GlobalShadows = false
+	l.FogEnd = 9e9
+	l.Brightness = 0
+	settings().Rendering.QualityLevel = "Level01"
+	for i, v in pairs(g:GetDescendants()) do
+		if v:IsA("Part") or v:IsA("Union") or v:IsA("CornerWedgePart") or v:IsA("TrussPart") then
+			v.Material = "Plastic"
+			v.Reflectance = 0
+		elseif v:IsA("Decal") or v:IsA("Texture") and decalsyeeted then
+			v.Transparency = 1
+		elseif v:IsA("ParticleEmitter") or v:IsA("Trail") then
+			v.Lifetime = NumberRange.new(0)
+		elseif v:IsA("Explosion") then
+			v.BlastPressure = 1
+			v.BlastRadius = 1
+		elseif v:IsA("Fire") or v:IsA("SpotLight") or v:IsA("Smoke") then
+			v.Enabled = false
+		elseif v:IsA("MeshPart") then
+			v.Material = "Plastic"
+			v.Reflectance = 0
+			v.TextureID = 10385902758728957
+		end
+	end
+	for i, e in pairs(l:GetChildren()) do
+		if e:IsA("BlurEffect") or e:IsA("SunRaysEffect") or e:IsA("ColorCorrectionEffect") or e:IsA("BloomEffect") or e:IsA("DepthOfFieldEffect") then
+			e.Enabled = false
+		end
+	end
+	
+	for i, v in pairs(game.Workspace:GetChildren()) do
+		if v.Name == "HouseOwn" then
+			v:Destroy()
+		end
+	end
+end)
+
+UICorner_10.Parent = RBD
+
+GS.Name = "GS"
+GS.Parent = Frame
+GS.BackgroundColor3 = Color3.fromRGB(58, 58, 58)
+GS.Position = UDim2.new(0.037453182, 0, 0.779058814, 0)
+GS.Size = UDim2.new(0, 247, 0, 43)
+
+UICorner_11.Parent = GS
+
+TextLabel_3.Parent = GS
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+TextLabel_3.Size = UDim2.new(0, 82, 0, 43)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = "GlobalShadows"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextWrapped = true
+
+UICorner_12.Parent = TextLabel_3
+
+ON_2.Name = "ON"
+ON_2.Parent = GS
+ON_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ON_2.BackgroundTransparency = 0.800v
+ON_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+ON_2.Position = UDim2.new(0.453441292, 0, 0.0930232555, 0)
+ON_2.Size = UDim2.new(0, 45, 0, 35)
+ON_2.Font = Enum.Font.SourceSans
+ON_2.Text = "ON"
+ON_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+ON_2.TextSize = 14.000
+ON_2.MouseButton1Click:Connect(function()
+	game.Lighting.GlobalShadows.Enabled = true
+end)
+
+UICorner_13.Parent = ON_2
+
+OFF_2.Name = "OFF"
+OFF_2.Parent = GS
+OFF_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+OFF_2.BackgroundTransparency = 0.800
+OFF_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+OFF_2.Position = UDim2.new(0.684210479, 0, 0.0930232555, 0)
+OFF_2.Size = UDim2.new(0, 45, 0, 35)
+OFF_2.Font = Enum.Font.SourceSans
+OFF_2.Text = "OFF"
+OFF_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+OFF_2.TextSize = 14.000
+OFF_2.MouseButton1Click:Connect(function()
+	game.Lighting.GlobalShadows.Enabled = false
+end)
+
+UICorner_14.Parent = OFF_2
+
+CDS.Name = "CDS"
+CDS.Parent = Frame
+CDS.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CDS.BackgroundTransparency = 1.000
+CDS.Position = UDim2.new(0, 0, 0.919581711, 0)
+CDS.Size = UDim2.new(0, 266, 0, 24)
+CDS.Font = Enum.Font.SourceSans
+CDS.Text = "Powered by D3X"
+CDS.TextColor3 = Color3.fromRGB(255, 255, 255)
+CDS.TextSize = 14.000
